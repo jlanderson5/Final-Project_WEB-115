@@ -1,0 +1,61 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: #cd9322;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+header {
+    width: 100%;
+    display: flex; /* Ensures contents of the header are laid out as flex items */
+    align-items: flex-end; /* Vertically centers the content in the header */
+    justify-content: space-between;
+    position: relative;
+    height:300px;
+}
+
+header img.banner {
+    width: 50%; /* Makes the image only take up half the width of the header */
+    max-height: 300px;
+    height: auto; /* Maintains the aspect ratio */
+    display: block;
+}
+.header-text {
+    margin-right: 20px;
+}
+button {
+    background-color: #cd9322;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
